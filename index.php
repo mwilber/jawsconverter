@@ -1,3 +1,12 @@
+<?php
+
+	$social = array();
+	$social['title'] = "JAWS Converter";
+	$social['description'] = "Measure your world in terms of Sharks!";
+	$social['image'] = "https://jawsconverter.herokuapp.com/images/fp_icon.png";
+	$social['link'] = "https://jawsconverter.herokuapp.com";
+
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 
@@ -11,16 +20,16 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>JAWS Converter</title>
-	<meta name="description" content="Description Here">
+	<title><?=$social['title']?></title>
+	<meta name="description" content="<?=$social['description']?>">
 	<meta name="author" content="Matthew Wilber">
-	<meta property="og:title" content="JAWS Converter" />
+	<meta property="og:title" content="<?=$social['title']?>" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://jawsconverter.herokuapp.com" />
-	<meta property="og:image" content="https://jawsconverter.herokuapp.com/images/fp_icon.png" />
+	<meta property="og:url" content="<?=$social['link']?>" />
+	<meta property="og:image" content="<?=$social['image']?>" />
 	<meta property="og:site_name" content="JAWS Converter" />
 	<meta property="fb:admins" content="631337813" />
-	<meta property="og:description" content="Description Here" />
+	<meta property="og:description" content="<?=$social['description']?>" />
 
 	<meta name="viewport" content="width=800,initial-scale=1">
 
@@ -32,6 +41,13 @@
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
 	
 	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript">
+		var social = [];
+		social['title'] = "<?=$social['title']?>";
+		social['description'] = "<?=$social['description']?>";
+		social['image'] = "<?=$social['image']?>";
+		social['link'] = "<?=$social['link']?>";
+	</script>
 	
 </head>
 <body>
@@ -42,8 +58,8 @@
 		<a id="btnclose" href="#"><img src="images/btn_close.png"/></a>
 		<h2>About JAWS Converter</h2>
 		<div id="about" class="scroll-pane">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed augue elit, in pulvinar nibh. Nullam porttitor mattis metus non interdum. Morbi vehicula risus sit amet libero condimentum sit amet ultrices nunc ornare. Proin nec risus non metus fringilla hendrerit. Nullam ipsum ligula, convallis tristique egestas eu, condimentum elementum lectus. Pellentesque consequat nisi et elit bibendum feugiat imperdiet lorem mattis. Pellentesque libero magna, aliquam non congue in, consectetur sit amet mauris. Praesent tristique orci lacus. Sed ut venenatis tellus. Vivamus nec libero sed erat venenatis tristique. Nunc feugiat diam non tellus fringilla imperdiet. Integer facilisis sollicitudin iaculis.</p>
-			<p>Nullam eget hendrerit massa. Donec mattis diam a nibh condimentum quis sollicitudin velit placerat. Nam vitae lectus at dui consectetur dapibus et nec lorem. Nulla vulputate mauris a turpis fermentum eu commodo mauris porta. Mauris hendrerit erat et eros pretium vel ultrices arcu sollicitudin. Nulla sed est justo. Nunc iaculis lorem scelerisque purus mollis vestibulum. Cras a mi eget erat consectetur sollicitudin. Vestibulum lacus nunc, viverra sed dignissim placerat, aliquam vitae erat. Donec rutrum molestie nunc, at tincidunt libero interdum sit amet. Sed ac odio purus, elementum commodo felis.</p>
+			<p>Using length of the shark from the movie &ldquo;JAWS&rdquo; as the base unit, everything in the universe can be measured in terms of JAWS. 1 JAWS is roughly equivalent to 25 feet (7.5 meters). The JAWS system is best used for measuring the expanse between two travel-able points, such as the distance one must swim to reach the safety of shore while pursued by a man-eating shark.</p>
+			<p>Informal use of the JAWS system includes parts of the fish to reference increments of the JAWS unit. For example 1.3 JAWS may be referred to as &ldquo;A JAWS and a head.&rdquo; Smaller units include &ldquo;a fin&rdquo;, &ldquo;a tail&rdquo; and &ldquo;a tooth&rdquo;. These terms, though used often, are not part of the official measurement system. JAWS may also be used as a method of converting imperial to metric units, such as feet to meters but is not recommended.</p>
 		</div>
 	</div>
 	<header>

@@ -6,6 +6,7 @@
 //	Event Handlers
 /////////////////////////////////////////////////////////////////////////////
 
+
 $(document).ready(function(){
 	
 	FB.init({appId: FBconfig.app.id, status : true, cookie: true, xfbml : true});
@@ -24,6 +25,20 @@ $(document).ready(function(){
 	
 	$('#measureConvert').click(UnitConvert);
 	$('#frmmeasure').submit(UnitConvert);
+	
+	$('#facebook').click(function(){
+		WallPost(social['link'] , social['title'] , social['description'] , social['image'] , '');
+	});
+	
+	$('#tweeters').click(function(){
+		var twcontent = escape(social['title'])+" - "+escape(social['description'])+" "+escape(social['link']);
+		openpopup('http://twitter.com/home?status='+twcontent,'tweeters',550,450);
+	});
+	
+	$('#googleplus').click(function(){
+		var url = "https://plus.google.com/share?url="+escape(social['link']);
+		openpopup(url,'gplus',550,450);
+	});
 	
 });
 
