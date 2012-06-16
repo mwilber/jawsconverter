@@ -31,7 +31,7 @@
 	<meta property="fb:admins" content="631337813" />
 	<meta property="og:description" content="<?=$social['description']?>" />
 
-	<meta name="viewport" content="width=800,initial-scale=1">
+	<meta name="viewport" content="width=810,initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
