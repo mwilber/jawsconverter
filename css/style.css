@@ -209,8 +209,12 @@ html, body{
 	background-color:#001530;
 }
 
+.sharkcache{
+	display:none;
+}
+
 #container{
-	width:820px;
+	width:810px;
 	min-height:820px;
 	margin: 0px auto;
 	background-image:url('../images/bkg_main.jpg');

@@ -12,15 +12,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>JAWS Converter</title>
-	<meta name="description" content="">
+	<meta name="description" content="Description Here">
 	<meta name="author" content="Matthew Wilber">
 	<meta property="og:title" content="JAWS Converter" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="" />
+	<meta property="og:url" content="https://jawsconverter.herokuapp.com" />
+	<meta property="og:image" content="https://jawsconverter.herokuapp.com/images/fp_icon.png" />
+	<meta property="og:site_name" content="JAWS Converter" />
 	<meta property="fb:admins" content="631337813" />
-	<meta property="og:description" content="" />
+	<meta property="og:description" content="Description Here" />
 
 	<meta name="viewport" content="width=800,initial-scale=1">
 
@@ -36,6 +36,8 @@
 </head>
 <body>
 <div id="container">
+	<img class="sharkcache" src="images/JAWS200.png"/>
+	<img class="sharkcache" src="images/JAWS100.png"/>
 	<div id="aboutbox">
 		<a id="btnclose" href="#"><img src="images/btn_close.png"/></a>
 		<h2>About JAWS Converter</h2>
