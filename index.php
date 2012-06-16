@@ -63,6 +63,11 @@
 		</div>
 	</div>
 	<header>
+		<div id="likegroup">
+		<div class="fb-like" data-href="http://jawsconverter.herokuapp.com/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		<div class="g-plusone" data-size="medium"></div>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jawsconverter.herokuapp.com" data-text="JAWS Converter - Measure your world in terms of Sharks!" data-hashtags="JAWS">Tweet</a>
+		</div>
 		<img src="images/logo.png" alt="JAWS CONVERTER"/>
 	</header>
 	<div id="main" role="main">
@@ -116,7 +121,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-76054-11']);
+  _gaq.push(['_setAccount', 'UA-76054-16']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -126,6 +131,15 @@
   })();
 
 </script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 
 <!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>

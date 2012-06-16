@@ -264,6 +264,15 @@ header{
 	margin: 0px 0px 20px 60px;
 }
 
+#likegroup{
+	float: left;
+	margin-bottom: -25px;
+}
+
+#likegroup .fb-like iframe{
+	margin-top: -3px;	
+}
+
 #main{
 	background-color:#000;
 	background-color:rgba(0,0,0,0.7);
