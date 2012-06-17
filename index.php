@@ -3,8 +3,8 @@
 	$social = array();
 	$social['title'] = "JAWS Converter";
 	$social['description'] = "Measure your world in terms of Sharks!";
-	$social['image'] = "https://jawsconverter.herokuapp.com/images/fp_icon.png";
-	$social['link'] = "https://jawsconverter.herokuapp.com";
+	$social['image'] = "http://jawsconverter.com/images/fp_icon.png";
+	$social['link'] = "http://jawsconverter.com/";
 
 ?>
 <!doctype html>
@@ -55,7 +55,7 @@
 	<img class="sharkcache" src="images/JAWS200.png"/>
 	<img class="sharkcache" src="images/JAWS100.png"/>
 	<div id="aboutbox">
-		<a id="btnclose" href="#"><img src="images/btn_close.png"/></a>
+		<a id="btnclose" href="#" onclick="return false;"><img src="images/btn_close.png"/></a>
 		<h2>About JAWS Converter</h2>
 		<div id="about" class="scroll-pane">
 			<p>Using length of the shark from the movie &ldquo;JAWS&rdquo; as the base unit, everything in the universe can be measured in terms of JAWS. The JAWS system was first proposed by Writer/Director/Podcaster Kevin Smith of <a href="http://smodcast.com/" target="_blank">Smodcast.com</a> as a superior method of visualizing distances. 1 JAWS is roughly equivalent to 25 feet (7.5 meters). The JAWS system is best used for measuring the expanse between two travel-able points, such as the distance one must swim to reach the safety of shore while pursued by a man-eating shark.</p>
@@ -65,9 +65,9 @@
 	</div>
 	<header>
 		<div id="likegroup">
-		<div class="fb-like" data-href="http://jawsconverter.herokuapp.com/" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
-		<div class="g-plusone" data-size="medium"></div>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jawsconverter.herokuapp.com" data-text="JAWS Converter - Measure your world in terms of Sharks!" data-hashtags="JAWS">Tweet</a>
+		<div class="fb-like" data-href="<?=$social['link']?>" data-send="false" data-layout="button_count" data-width="90" data-show-faces="false"></div>
+		<g:plusone size="medium" href="<?=$social['link']?>"></g:plusone>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$social['link']?>" data-text="JAWS Converter - Measure your world in terms of Sharks!" data-hashtags="JAWS">Tweet</a>
 		</div>
 		<img src="images/logo.png" alt="JAWS CONVERTER"/>
 	</header>
@@ -76,10 +76,10 @@
 		<div id="menubar">
 			<div>
 				<span>SHARE:</span>
-				<a id="tweeters" href="#"><img src="images/btn_tw.png"/></a>
-				<a id="facebook" href="#"><img src="images/btn_fb.png"/></a>
-				<a id="googleplus" href="#"><img src="images/btn_gp.png"/></a>
-				<a id="info" href="#"><img src="images/btn_info.png"/></a>
+				<a id="tweeters" href="#" onclick="return false;"><img src="images/btn_tw.png" alt="Tweeters"/></a>
+				<a id="facebook" href="#" onclick="return false;"><img src="images/btn_fb.png" alt="facebook"/></a>
+				<a id="googleplus" href="#" onclick="return false;"><img src="images/btn_gp.png" alt="google plus"/></a>
+				<a id="info" href="#" onclick="return false;"><img src="images/btn_info.png" alt="info"/></a>
 			</div>
 		</div>
 		<form id="frmmeasure">

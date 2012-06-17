@@ -267,6 +267,8 @@ header{
 #likegroup{
 	float: left;
 	margin-bottom: -25px;
+	position: relative;
+	z-index: 200;
 }
 
 #likegroup .fb-like iframe{
