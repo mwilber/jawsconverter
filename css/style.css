@@ -219,7 +219,9 @@ html, body{
 	margin: 0px auto;
 	background-image:url('../images/bkg_main.jpg');
 	background-repeat:no-repeat;
+	background-position:-5px 0px;
 	padding-top:60px;
+	background-color:#001530;
 }
 
 #aboutbox{
