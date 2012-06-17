@@ -99,6 +99,7 @@
 		<!--! end app content -->
 	</div>
 	<footer>
+		<a id="addtopage" href="#" onclick="AddToPage(); return false;">Add To Your Facebook Page</a>
   		<a id="gzlink" href="http://www.greenzeta.com" target="_blank">A GreenZeta Production</a>
  	</footer>
 	<div id="fb-root"></div>
