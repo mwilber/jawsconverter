@@ -69,7 +69,7 @@
 		<g:plusone size="medium" href="<?=$social['link']?>"></g:plusone>
 		<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?=$social['link']?>" data-text="JAWS Converter - Measure your world in terms of Sharks!" data-hashtags="JAWS">Tweet</a>
 		</div>
-		<img src="images/logo.png" alt="JAWS CONVERTER"/>
+		<img src="images/logo.png" alt="JAWS CONVERTER" width="706" height="262"/>
 	</header>
 	<div id="main" role="main">
 		<!--! begin app content -->
