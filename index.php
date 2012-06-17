@@ -32,6 +32,7 @@
 	<meta property="og:description" content="<?=$social['description']?>" />
 
 	<meta name="viewport" content="width=810">
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
 	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
