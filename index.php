@@ -34,7 +34,7 @@
 	<meta name="viewport" content="width=810">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 
-	<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/jquery.facebook.multifriend.select.css" />
