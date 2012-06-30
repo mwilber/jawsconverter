@@ -59,6 +59,7 @@
 		<a id="btnclose" href="#" onclick="return false;"><img src="images/btn_close.png"/></a>
 		<h2>About JAWS Converter</h2>
 		<div id="about" class="scroll-pane">
+			<p><strong>Update: </strong> The JAWS system has been expanded to include weight measurement. 1 JAWS is roughly equivalent to 3 tons or 6000 pounds.<br/></p>
 			<p>Using length of the shark from the movie &ldquo;JAWS&rdquo; as the base unit, everything in the universe can be measured in terms of JAWS. The JAWS system was first proposed by Writer/Director/Podcaster Kevin Smith of <a href="http://smodcast.com/" target="_blank">Smodcast.com</a> as a superior method of visualizing distances. 1 JAWS is roughly equivalent to 25 feet (7.5 meters). The JAWS system is best used for measuring the expanse between two travel-able points, such as the distance one must swim to reach the safety of shore while pursued by a man-eating shark.</p>
 			<p>Informal use of the JAWS system includes parts of the fish to reference increments of the JAWS unit. For example 1.3 JAWS may be referred to as &ldquo;A JAWS and a head.&rdquo; Smaller units include &ldquo;a fin&rdquo;, &ldquo;a tail&rdquo; and &ldquo;a tooth&rdquo;. These terms, though used often, are not part of the official measurement system. JAWS may also be used as a method of converting imperial to metric units, such as feet to meters but is not recommended.</p>
 			<p>JAWS Converter was created by Internet software developer Matthew Wilber. For more information, visit <a href="http://www.mwilber.com" target="_blank">mwilber.com</a>.</p>
@@ -87,6 +88,8 @@
 			<select id="measureUnit">
 				<option value="feet">Feet</option>
 				<option value="meters">Meters</option>
+				<option value="pounds">Pounds</option>
+				<option value="kilograms">Kilograms</option>
 			</select>
 			<input id="measureSource" type="text" value="100"/>
 			<input id="measureConvert" type="submit" value="Convert"/>

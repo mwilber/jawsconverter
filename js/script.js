@@ -89,15 +89,29 @@ function UnitConvert(){
 	switch($('#measureUnit').val()){
 		case "meters":
 			ftLen = Math.round(sourceLen / .3048 * 100) * .01;
+			// SourceLen must been in feet at this point
+			JAWSlen = Math.round((ftLen / 25)*100)/100;
+			break;
+		case "pounds":
+			//Convert to tons
+			ftLen = sourceLen * 0.0005;
+			JAWSlen = Math.round((ftLen / 3)*100)/100;
+			break;
+		case "kilograms":
+			// Convert to pounds
+			ftLen = sourceLen * 0.4535923744953;
+			//Convert to tons
+			ftLen = ftLen * 0.0005;
+			JAWSlen = Math.round((ftLen / 3)*100)/100;
 			break;
 		default:
 			ftLen = sourceLen;
+			// SourceLen must been in feet at this point
+			JAWSlen = Math.round((ftLen / 25)*100)/100;
 			break;
 	}
 	DebugOut('ftLen: '+ftLen);
 	
-	// SourceLen must been in feet at this point
-	JAWSlen = Math.round((ftLen / 25)*10)/10;
 	
 	DebugOut('JAWSlen: '+JAWSlen);
 	
