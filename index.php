@@ -1,5 +1,13 @@
 <?php
 
+	include('mobile_device_detect.php');
+	
+	$isMobile = false;
+	$isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
+	if( mobile_device_detect() && !$isiPad ){
+		header('Location: http://jawsconverter.com/mobile.html');
+	}
+
 	$social = array();
 	$social['title'] = "JAWS Converter";
 	$social['description'] = "Measure your world in terms of Sharks!";
