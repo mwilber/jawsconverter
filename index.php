@@ -48,10 +48,7 @@
 	<meta name="twitter:domain" content="jawsconverter.com">
 	
 	<!-- Twitter App Card Metadata -->
-	<meta name="twitter:card" content="app">
-	<meta name="twitter:description" content="Measure your world in terms of sharks! Available for free in the Google Play Store.">
-	<meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter">
-	<meta name="twitter:app:id:googleplay" content="com.greenzeta.greenzeta.jawsconverter">
+
 
 	<meta name="viewport" content="width=810">
 	<meta name="apple-mobile-web-app-capable" content="yes">
