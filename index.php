@@ -35,7 +35,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="<?=$social['link']?>" />
 	<meta property="og:image" content="<?=$social['image']?>" />
-	<meta property="og:site_name" content="JAWS Converter" />
+	<meta property="og:site_name" content="<?=$social['title']?>" />
 	<meta property="fb:admins" content="631337813" />
 	<meta property="og:description" content="<?=$social['description']?>" />
 	
@@ -47,11 +47,7 @@
 	<meta name="twitter:image:src" content="<?=$social['image']?>">
 	<meta name="twitter:domain" content="jawsconverter.com">
 	
-	<!-- Twitter App Card Metadata -->
-	<meta name="twitter:card" content="app">
-	<meta name="twitter:description" content="Measure your world in terms of sharks! Available for free in the Google Play Store.">
-	<meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter">
-	<meta name="twitter:app:id:googleplay" content="com.greenzeta.greenzeta.jawsconverter">
+
 
 	<meta name="viewport" content="width=810">
 	<meta name="apple-mobile-web-app-capable" content="yes">
