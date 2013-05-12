@@ -120,8 +120,8 @@
 		<div id="result"></div>
 		<!--! end app content -->
 	</div>
-	<a id="addtopage" href="#" onclick="AddToPage(); return false;" style="float:left; margin: 10px 60px; text-decoration:none; font-family: sans-serif; font-weight:bold;">Add To Your Facebook Page</a>
-
+	<a id="" href="policy.html" style="float:left; margin: 10px 0px 10px 60px; text-decoration:none; font-family: sans-serif; font-weight:bold;">Privacy Policy</a>
+	<a id="addtopage" href="#" onclick="AddToPage(); return false;" style="float:left; margin: 10px 30px; text-decoration:none; font-family: sans-serif; font-weight:bold;">Add To Your Facebook Page</a>
 	<footer>
 		<a style="float:left; width:auto;" href="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter" target="_blank"><img src="images/playstore.png" style="height:45px;"/></a>
 		<a style="float:left; width:auto;" href="https://chrome.google.com/webstore/detail/lbaefopnbomfajgakfbmoejkinmgcjed" target="_blank"><img src="images/chromestore.png" style="height:45px;"/></a>
