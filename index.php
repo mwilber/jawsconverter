@@ -46,6 +46,11 @@
 	<meta name="twitter:creator" content="@greenzeta">
 	<meta name="twitter:image:src" content="<?=$social['image']?>">
 	<meta name="twitter:domain" content="jawsconverter.com">
+	<!-- Twitter App Card -->
+	<meta name="twitter:card" content="app">
+	<meta name="twitter:app:id:iphone" content="">
+	<meta name="twitter:app:id:ipad" content="">
+	<meta name="twitter:app:id:googleplay" content="com.greenzeta.greenzeta.jawsconverter">
 	
 
 
