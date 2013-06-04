@@ -25,17 +25,18 @@ $(document).ready(function(){
 	
 	$('#facebook').click(function(){
 		var url = "http://www.facebook.com/sharer.php?u="+escape(social['link']);
-		openpopup(url,'gplus',550,450);
+		AppMobi.device.launchExternal(url);
 	});
 	
 	$('#tweeters').click(function(){
 		var twcontent = escape(social['title'])+" - "+escape(social['description'])+" "+escape(social['link']);
-		openpopup('http://twitter.com/home?status='+twcontent,'tweeters',550,450);
+		var url = 'https://mobile.twitter.com/compose/tweet?status='+twcontent;
+		AppMobi.device.launchExternal(url);
 	});
 	
 	$('#googleplus').click(function(){
 		var url = "https://plus.google.com/share?url="+escape(social['link']);
-		openpopup(url,'gplus',550,450);
+		AppMobi.device.launchExternal(url);
 	});
 	
 });

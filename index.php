@@ -48,6 +48,8 @@
 	<meta name="twitter:domain" content="jawsconverter.com">
 	<!-- Twitter App Card -->
 	<meta name="twitter:card" content="app">
+	<meta name="twitter:app:id:iphone" content="id654423387">
+	<meta name="twitter:app:id:ipad" content="id654423387">
 	<meta name="twitter:app:id:googleplay" content="com.greenzeta.greenzeta.jawsconverter">
 	
 
@@ -126,10 +128,11 @@
 	<a id="" href="policy.html" style="float:left; margin: 10px 0px 10px 60px; text-decoration:none; font-family: sans-serif; font-weight:bold;">Privacy Policy</a>
 	<a id="addtopage" href="#" onclick="AddToPage(); return false;" style="float:left; margin: 10px 30px; text-decoration:none; font-family: sans-serif; font-weight:bold;">Add To Your Facebook Page</a>
 	<footer>
-		<a style="float:left; width:auto;" href="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter" target="_blank"><img src="images/playstore.png" style="height:35px;"/></a>
-		<a style="float:left; width:auto;" href="http://www.amazon.com/GreenZeta-JAWS-Converter/dp/B008P7U7GW/" target="_blank"><img src="images/azstore.png" style="height:35px;"/></a>
-		<a style="float:left; width:auto;" href="https://chrome.google.com/webstore/detail/lbaefopnbomfajgakfbmoejkinmgcjed" target="_blank"><img src="images/chromestore.png" style="height:35px;"/></a>
-		<a style="float:left; width:auto;" href="http://apps.microsoft.com/windows/app/jaws-converter/6d9e426f-7d1b-45e4-907b-780bb9e42a7a" target="_blank"><img src="images/winstore.png" style="height:35px;"/></a>
+		<a style="float:left; width:auto;" href="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter" target="_blank"><img src="images/playstore.png" style="height:30px;"/></a>
+		<a style="float:left; width:auto;" href="http://www.amazon.com/GreenZeta-JAWS-Converter/dp/B008P7U7GW/" target="_blank"><img src="images/azstore.png" style="height:30px;"/></a>
+		<a style="float:left; width:auto;" href="https://chrome.google.com/webstore/detail/lbaefopnbomfajgakfbmoejkinmgcjed" target="_blank"><img src="images/chromestore.png" style="height:30px;"/></a>
+		<a style="float:left; width:auto;" href="http://apps.microsoft.com/windows/app/jaws-converter/6d9e426f-7d1b-45e4-907b-780bb9e42a7a" target="_blank"><img src="images/winstore.png" style="height:30px;"/></a>
+		<a style="float:left; width:auto;" href="https://itunes.apple.com/us/app/jaws-converter/id654423387?ls=1&mt=8" target="_blank"><img src="images/appstore.png" style="height:30px;"/></a>
   		<a id="gzlink" href="http://www.greenzeta.com" target="_blank">A GreenZeta Production</a>
  	</footer>
 	<div id="fb-root"></div>
