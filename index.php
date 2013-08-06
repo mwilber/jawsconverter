@@ -104,7 +104,8 @@
 				<a id="tweeters" href="#" onclick="return false;"><img src="images/btn_tw.png" alt="Tweeters"/></a>
 				<a id="facebook" href="#" onclick="return false;"><img src="images/btn_fb.png" alt="facebook"/></a>
 				<a id="googleplus" href="#" onclick="return false;"><img src="images/btn_gp.png" alt="google plus"/></a>
-				<!--<a style="margin:-2px 20px;" href="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter" target="_blank"><img src="images/playstore.png" style="height:40px;"/></a>-->
+				<a style="margin:0px 20px;" href="https://play.google.com/store/apps/details?id=com.greenzeta.greenzeta.jawsconverter" target="_blank"><img src="images/playstore.png" style="height:35px;"/></a>
+				<a style="margin:0px 0px;" href="https://itunes.apple.com/us/app/jaws-converter/id654423387?ls=1&mt=8" target="_blank"><img src="images/appstore.png" style="height:35px;"/></a>
 				<a id="info" href="#" onclick="return false;"><img src="images/btn_info.png" alt="info"/></a>
 			</div>
 		</div>
